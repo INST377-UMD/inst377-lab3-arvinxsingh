@@ -7,3 +7,18 @@
     clear: both;
     margin-top: 10px;
 }
+
+#main-nav{
+    background-color:lightblue;
+}
+
+#main-nav li{
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover{       
+    background-color:lightgreen;
+    color: white;
+
+}
