@@ -1,0 +1,9 @@
+#head-bar{
+    text-align: center;
+    color: white;
+    background-color: #7c7c7c;
+    padding: 5px;
+    font-family: cursive;
+    clear: both;
+    margin-top: 10px;
+}
