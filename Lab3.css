@@ -9,6 +9,7 @@ body{
     background-color: #7c7c7c;
     padding: 5px;
     font-family:'Times New Roman', Times, serif;
+    margin-top: 10px;
     clear: both;
 }
 
@@ -72,6 +73,6 @@ body{
     width: 100px; 
 }
 
-#name:hover {
+#name:focus {
     width: 300px; 
 }
