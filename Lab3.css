@@ -1,15 +1,19 @@
-#head-bar{
+body{
+    background-color: lightgoldenrodyellow;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#bar{
     text-align: center;
     color: white;
     background-color: #7c7c7c;
     padding: 5px;
-    font-family: cursive;
+    font-family:'Times New Roman', Times, serif;
     clear: both;
-    margin-top: 10px;
 }
 
 #main-nav{
-    background-color:lightblue;
+    background-color: cadetblue;
 }
 
 #main-nav li{
@@ -18,24 +22,56 @@
 }
 
 #main-nav li:hover{       
-    background-color:lightgreen;
+    background-color: #7c7c7c;
     color: white;
-
 }
 
-.main-container{
+#main-nav ul li{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-area{
     width: 70%;
     float: left;
     margin: 0;
+
+}
+
+.content-box{
+    background-color: rgb(13, 234, 164);
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+
+}
+
+#rules{
+    text-align: left;
+    background-color: rgb(21, 233, 223);
+    float: right;
+    width: 25%;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+#rules:hover{       
+    background-color:magenta;
 }
 
 .main-container{
-    background-color: aqua;
-    padding: 5px;
-    color: black;
-    border: 2px solid black;
-    border-radius: 15px;
-    margin: 5px;
+    height: 37%;
 }
 
+#name {
+    width: 100px; 
+}
 
+#name:hover {
+    width: 300px; 
+}
